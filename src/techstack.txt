@@ -1,0 +1,4 @@
+firebase for hosting 
+TMDB as the API for the movies
+axios for making request for api
+flex

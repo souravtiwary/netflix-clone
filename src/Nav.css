@@ -1,0 +1,21 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  object-fit: contain;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.nac_logo {
+  width: 10px;
+  position: fixed;
+  left: 20px;
+  /* object-fit: contain; */
+}
+
+/* .nac_avatar {
+  width: 30px;
+  object-fit: contain;
+} */

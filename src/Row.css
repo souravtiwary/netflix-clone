@@ -1,0 +1,39 @@
+.row_posters {
+  /* flex box */
+  display: flex;
+  /* only the container will move */
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row {
+  margin-left: 8px;
+  color: white;
+}
+
+/* this will hide the scroll bar */
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  width: 100%;
+  object-fit: contain;
+  max-height: 150px;
+  margin-right: 10px;
+  transition: transform 800ms;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+  margin-right: 15px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.15);
+}
