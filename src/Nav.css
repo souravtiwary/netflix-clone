@@ -5,11 +5,21 @@
   object-fit: contain;
   justify-content: space-between;
   width: 100%;
+  height: 35px;
+  /* background-color: #111; */
   padding: 20px;
+  z-index: 1;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
 }
 
-.nac_logo {
-  width: 10px;
+.nav_black {
+  background-color: #111;
+}
+
+.nav_logo {
+  width: 108px;
+  height: 32px;
   position: fixed;
   left: 20px;
   /* object-fit: contain; */
